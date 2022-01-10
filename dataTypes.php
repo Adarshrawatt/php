@@ -52,6 +52,19 @@
         echo "<br>";
         echo var_dump($bool2);
          ?>
+        <h3>Array</h3>
+         <?php 
+         $arr = array(2,3,4,5,5,6,7);
+         echo var_dump($arr);
+         echo var_dump($arr[0]);
+         echo("<br>");
+         echo var_dump($arr[1]);
+         echo("<br>");
+         echo var_dump($arr[2]);
+         echo("<br>");
+         echo var_dump($arr[3]);
+         echo("<br>");
+         ?>
     </p>
    
 </body>
